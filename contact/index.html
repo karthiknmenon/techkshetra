@@ -212,17 +212,16 @@
                             <div class="row">
                                 <div
                                     class="col-xs-10 col-sm-12 col-md-12 col-lg-12 col-xs-offset-1 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
-                                    <div role="form" class="wpcf7" id="wpcf7-f4-o1" lang="it-IT" dir="ltr">
+                                    <div>
                                         <div class="screen-reader-response"></div>
-                                        <form action="/contact/#wpcf7-f4-o1" method="post" class="wpcf7-form"
-                                            novalidate="novalidate">
+                                        <form name="contact" method="POST" data-netlify="true" >
 
-                                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+            
                                             <div class="form-group">
                                                 <label for="your-name">Name</label><br />
-                                                <div class="wpcf7-form-control-wrap input-elastic your-name">
-                                                    <input type="text" name="your-name" value="" size="40"
-                                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                                                <div class="input-elastic your-name">
+                                                    <input type="text" name="name" size="40"
+                                                        class="contact-form-control contact-text contact-validates-as-required form-control"
                                                         id="your-name" aria-required="true" aria-invalid="false"
                                                         placeholder="Enter your Name">
 
@@ -237,9 +236,9 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="your-email">Email</label><br />
-                                                <div class="wpcf7-form-control-wrap input-elastic your-email">
-                                                    <input type="email" name="your-email" value="" size="40"
-                                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
+                                                <div class="input-elastic your-email">
+                                                    <input type="email" name="email" size="40"
+                                                        class="contact-form-control contact-text contact-email contact-validates-as-required contact-validates-as-email form-control"
                                                         id="your-email" aria-required="true" aria-invalid="false"
                                                         placeholder="Enter your E-mail">
 
@@ -255,9 +254,9 @@
                                             <div class="form-group">
                                                 <label for="your-message">Message</label><br />
                                                 <div
-                                                    class="wpcf7-form-control-wrap input-elastic input-textarea your-message">
-                                                    <textarea name="your-message" cols="40" rows="6"
-                                                        class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control"
+                                                    class="input-elastic input-textarea your-message">
+                                                    <textarea name="message" cols="40" rows="6"
+                                                        class="contact-form-control contact-textarea contact-validates-as-required form-control"
                                                         id="your-message" aria-required="true" aria-invalid="false"
                                                         placeholder="Message"></textarea>
 
