@@ -1730,7 +1730,7 @@ section.section-overflow {
 }
 
 #homepage-logo {
-    height: 350px;
+    height: 300px;
     display: inline;
 }
 
@@ -6308,7 +6308,7 @@ header {
 header.header-fixed {
     padding: 15px 0;
     background-color: #2c1b3d;
-    background-color: rgba(44, 27, 61, .98);
+    background-color: rgba(44, 27, 61, 1);
     border-bottom: 1px solid #523272;
     border-bottom: 1px solid rgba(82, 50, 114, .95);
 }
