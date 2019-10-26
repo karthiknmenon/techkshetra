@@ -2669,17 +2669,19 @@ section.section-overflow {
 .block-portfolio.block-portfolio-devices-view,
 .block-portfolio.block-portfolio-video-frame {
     width: 100%;
-    height: 800px;
-    min-height: 800px;
-    max-height: 800px;
+    height: 100%;
+    /* min-height: 800px;
+    max-height: 800px; */
     overflow: hidden;
-    background-color: #88808b;
+    /* background-color: #88808b; */
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
 }
-
+figcaption{
+    text-align: center;
+}
 @media (max-width:991px) {
 
     .block-portfolio.block-portfolio-devices-view,
@@ -3041,13 +3043,13 @@ section.section-overflow {
 .device-scrolling .device-img.device-img-smartphone {
     width: 400px;
     height: 500px;
-    background-image: url(../images/works/portfolio/smartphone.png);
+    background-image: url(../departments/smartphone.png);
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .device-scrolling .device-img.device-img-smartphone-outline {
-    background-image: url(../images/works/portfolio/smartphone-outline.png);
+    background-image: url(../departments/smartphone-outline.png);
 }
 
 @media (max-width:767px) {
@@ -3565,6 +3567,9 @@ section.section-overflow {
 
 .box-bottom-welcome {
     margin-top: 550px;
+}
+.paralax{
+    margin-bottom: 30px;
 }
 
 @media (min-width:1200px) and (min-height:950px) {
@@ -9571,13 +9576,13 @@ footer address {
 }
 
 #portfolio-valbruna .box-emotional-img {
-    background-image: url(../images/works/portfolio/valbruna/cover.jpg);
+    background-image: url(../images/IT/cover.jpg);
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     #portfolio-valbruna .box-emotional-img {
-        background-image: url(../images/works/portfolio/valbruna/@2x/cover.jpg);
+        background-image: url(../images/IT/cover.jpg);
     }
 }
 
@@ -9597,67 +9602,67 @@ footer address {
 }
 
 #portfolio-valbruna .grid-item-cover-1 {
-    background-image: url(../images/works/portfolio/valbruna/valbruna-1.jpg);
+    background-image: url(../images/IT/valbruna-1.jpg);
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     #portfolio-valbruna .grid-item-cover-1 {
-        background-image: url(../images/works/portfolio/valbruna/@2x/valbruna-1.jpg);
+        background-image: url(../images/IT/@2x/valbruna-1.jpg);
     }
 }
 
 #portfolio-valbruna .grid-item-cover-2 {
-    background-image: url(../images/works/portfolio/valbruna/valbruna-2.jpg);
+    background-image: url(../images/IT/valbruna-2.jpg);
     background-position: top left;
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     #portfolio-valbruna .grid-item-cover-2 {
-        background-image: url(../images/works/portfolio/valbruna/@2x/valbruna-2.jpg);
+        background-image: url(../images/IT/@2x/valbruna-2.jpg);
     }
 }
 
 #portfolio-valbruna .grid-item-cover-3 {
-    background-image: url(../images/works/portfolio/valbruna/valbruna-3.jpg);
+    background-image: url(../images/IT/valbruna-3.jpg);
     background-position: right;
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     #portfolio-valbruna .grid-item-cover-3 {
-        background-image: url(../images/works/portfolio/valbruna/@2x/valbruna-3.jpg);
+        background-image: url(../images/IT/@2x/valbruna-3.jpg);
     }
 }
 
 #portfolio-valbruna .grid-item-cover-4 {
-    background-image: url(../images/works/portfolio/valbruna/valbruna-4.jpg);
+    background-image: url(../images/IT/valbruna-4.jpg);
     background-position: left;
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     #portfolio-valbruna .grid-item-cover-4 {
-        background-image: url(../images/works/portfolio/valbruna/@2x/valbruna-4.jpg);
+        background-image: url(../images/IT/@2x/valbruna-4.jpg);
     }
 }
 
 #portfolio-valbruna .grid-item-cover-5 {
-    background-image: url(../images/works/portfolio/valbruna/valbruna-5.jpg);
+    background-image: url(../images/IT/valbruna-5.jpg);
     background-position: left;
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
     #portfolio-valbruna .grid-item-cover-5 {
-        background-image: url(../images/works/portfolio/valbruna/@2x/valbruna-5.jpg);
+        background-image: url(../images/IT/@2x/valbruna-5.jpg);
     }
 }
 
 #portfolio-valbruna .block-portfolio-devices-view {
     background-color: #000;
-    background-image: url(../images/works/portfolio/valbruna/valbruna-bg.jpg);
+    background-image: url(../images/IT/valbruna-bg.jpg);
 }
 
 #portfolio-valbruna .tablet-portrait {
