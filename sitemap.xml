@@ -8,22 +8,22 @@
 
 <url>
   <loc>https://www.techkshetra.tech/index.html</loc>
-  <lastmod>2019-10-26T13:25:17+00:00</lastmod>
+   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.techkshetra.tech/</loc>
-  <lastmod>2019-10-26T13:25:17+00:00</lastmod>
+   <changefreq>daily</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://www.techkshetra.tech/about/index.html</loc>
-  <lastmod>2019-10-26T13:25:17+00:00</lastmod>
+   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.techkshetra.tech/contact/index.html</loc>
-  <lastmod>2019-10-26T13:25:17+00:00</lastmod>
+   <changefreq>weekly</changefreq>
   <priority>0.70</priority>
 </url>
 
