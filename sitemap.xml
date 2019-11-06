@@ -7,6 +7,11 @@
 
 
 <url>
+  <loc>https://www.techkshetra.tech</loc>
+   <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
   <loc>https://www.techkshetra.tech/index.html</loc>
    <changefreq>daily</changefreq>
   <priority>1.00</priority>
