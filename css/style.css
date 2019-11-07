@@ -981,12 +981,12 @@ section.section-overflow {
 }
 
 .lSAction>.prev:before {
-    margin-left: -3px;
+    /* margin-left: -3px; */
     content: ""
 }
 
 .lSAction>.next:before {
-    margin-right: -3px;
+    /* margin-right: -3px; */
     content: ""
 }
 
